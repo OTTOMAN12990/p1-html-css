@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(28, 168, 223);
+    text-align: center;
+
+}
+body {
+    background-color: rgb(174, 174, 174);
+}
+h2{
+    color: rgb(247, 239, 27);
+    text-align: center;
+}
+p{
+    color:rgb(247, 239, 27) ;
+    text-align: center;
+}
+li{
+    color: rgb(0, 255, 0);
+    
+}
+a{
+    color: rgb(0, 255, 0);
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
