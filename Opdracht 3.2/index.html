@@ -7,26 +7,26 @@
 </head>
 <body>
     <form>
-        <label for="First name">First name:</label><br>
-        <input type="text" id="First name" name="First name"><br>
-        <label for="Last name">Last name:</label><br>
-        <input type="text" id="Last name" name="Last name"><br><br>
+        <label for="First_name">Firstname:</label><br>
+        <input type="text" id="Firs _name" name="First_name"><br>
+        <label for="Last name">Lastname:</label><br>
+        <input type="text" id="Last name" name="Lastname"><br><br>
         <input type="radio" id="man" name="gender" value="man" checked>
         <label for="gender">man</label><br>
         <input type="radio" id="vrouw" name="gender" value="vrouw">
         <label for="gender">vrouw</label><br>
         <br>
-        <label for="straat naam & huisnummer">straat naam & huisnummer:</label><br>
-        <input type="text" id="straat naam & huisnummer" name="straat naam & huisnummer"><br>
+        <label for="addres">address:</label><br>
+        <input type="text" id="address" name="address"><br>
         <label for="lname">postcode:</label><br>
         <input type="text" id="postcode:" name="postcode:"><br>
         <label for="stad:">stad:</label><br>
         <input type="text" id="stad:" name="stad:"><br>
         <label for="Land:">Land:</label><br>
         <input type="text" id="Land:" name="Land:"><br>
-        <label for="BSN nummer:">BSN nummer:</label><br>
-        <input type="text" id="BSN nummer:" name="BSN nummer:"><br><br>
-        <label for="vacland">Vakantie land:</label>
+        <label for="BSN_nummer:">BSNnummer:</label><br>
+        <input type="text" id="BSN_nummer:" name="BSN_nummer:" pattern="[0-9]" maxlength="9"><br><br>
+        <label for="vacland">Vakantieland:</label>
         <select id="vacland" name="vacland" class="form-control">
             <option value="turkiye">turkiye</option>
             <option value="russia">russia</option>
@@ -36,15 +36,15 @@
             <option value="Colombia">Colombia</option>
         </select>
         <br>
-        <label for="dvv">datum van vertrek</label>
-        <input type="date" id="dvv">
+        <label for="dvv">datumvanvertrek</label>
+        <input type="date" id="dvv" min="2023-09-18">
         <div>
-            <label for="dvt">Datum van terugkomst:</label>
+            <label for="dvt">Datumvanterugkomst:</label>
             <input type="date" id="dvt" name="dvt"><br>
         </div>
         <br>
         <div>
-            <label for="numberpeople">aantal reisgenoten:</label>
+            <label for="numberpeople">aantalreisgenoten:</label>
             <input type="number" id="numberpeople" name="numberpeople" min="0" max="4">
         </div>
         <br>
@@ -56,7 +56,7 @@
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password"><br><br>
         </div>
-        <input type="submit" value="Verzenden">
+        <input type="submit" value="Verzenden" name="submit_info">
       </form>
 </body>
 </html>
