@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+}
