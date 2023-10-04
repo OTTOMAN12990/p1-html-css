@@ -86,9 +86,9 @@ footer{
 
 }
 
-.float {
+.float{
   width: 50vw;
-  float: right
+  float: right;
 }
 
 p{
@@ -103,6 +103,7 @@ p{
   min-width: 20vw;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
   z-index: 1;
+  flex-direction: column;
 }
 .dropdown-content a {
   color: rgb(22, 26, 255);
@@ -111,6 +112,6 @@ p{
   text-align: left;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
   
 }
