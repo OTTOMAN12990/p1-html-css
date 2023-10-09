@@ -1,4 +1,4 @@
-function changeColor(){
-document.getElementById("kinky").style.color = "red" ;
-document.getElementById("kinky").textContent = "inhoud aangepast!" ;
-  }
+function changeColor() {
+  document.getElementById("kinky").style.color = "blue"
+  document.getElementById("kinky").textContent = "SexShop"
+}
