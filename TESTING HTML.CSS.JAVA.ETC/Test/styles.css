@@ -1,0 +1,89 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigatiebalk */
+nav {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+header {
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero {
+    background-image: url('your_custom_background.jpg'); /* Voeg hier je eigen achtergrondafbeelding toe */
+    background-size: cover;
+}
+
+/* Secties */
+section {
+    padding: 40px;
+}
+
+/* Voeg hier extra CSS-stijlen toe zoals kleuren, lettertypen en meer naar wens */
+/* Stijl voor de navigatiebalk */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(47, 168, 36);
+}
+
+/* Stijl voor het dropdown-menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+/* Optioneel: stijl voor hover-effecten op de dropdown-items */
+.dropdown-content li:hover {
+    background-color: #ff0000;
+}

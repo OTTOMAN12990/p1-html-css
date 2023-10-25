@@ -71,12 +71,14 @@ h1{
 
   justify-items: center;
 }
-body{
+.background{
   background-image:url("./img/background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 
-
+}
+.background-blck{
+  background-color: black;
 }
 
 footer{
